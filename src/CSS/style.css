@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+button {
+    border: none !important;
+}
+
+/* Header */
+
+.header {
+    box-shadow: 0 4px 2px -2px hsl(0deg 2% 80% / 53%);
+}
+
+.brandText {
+    color: #a80000 !important;
+    font-size: 5vh !important;
+    font-weight: 600;
+    letter-spacing: 3.5px !important;
+}
+
+.navItems {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+}
+
+.navItem {
+    padding-top: 11px !important;
+}
+
+.navItems button {
+    font-size: 12px;
+    padding: 11px 24px !important;
+}
+
+.logBtn:hover {
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.signBtn {
+    background-color: #000 !important;
+}
+
+/* Main Section */
+
+.main_Section {
+    background-image: url(/public/images/sec1Bg.06ddeb73.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: top;
+    overflow-x: hidden !important;
+    overflow-y: hidden;
+}
+
+.searchBar {
+    background-color: #08395D;
+    height: 70px !important;
+    border-radius: 10px;
+}
+
+.searchInput {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+.main_Section button {
+    border-radius: 7px;
+}
+
+.searchBar button {
+    background-color: #A80000;
+    padding: 14px 30px !important;
+}
+
+.searchBar button:hover {
+    background-color: #A80000;
+    color: #000;
+}
+
+::placeholder {
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.dangerBtn {
+    background-color: #A80000 !important;
+}
+
+/* Video Section */
+
+.video_Section {
+    background-image: url(/public/images/sec2BG.45011b27.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: bottom;
+}
+
+.icon_advantage {
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+}
+
+.advP {
+    font-size: 15px !important;
+    color: #d0e7ff !important;
+    letter-spacing: 1px;
+}
+
+.advP_2 {
+    font-size: 15px !important;
+}
+
+.react-player__preview {
+    height: 93% !important;
+    cursor: pointer !important;
+    border-radius: 30px !important;
+}
+
+.react-player__shadow {
+    background: #007BFF !important;
+    width: 90px !important;
+    height: 90px !important;
+    display: flex;
+    margin-left: 10px !important;
+}
+
+.react-player__play-icon {
+    border-width: 25px 0 25px 35px !important;
+    margin-left: 15px !important;
+}
+
+/* Carousel Section */
+
+.carousel_Section {
+    background-image: url(/public/images/sec4Bg.91a679eb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.carousel_Section h3 {
+    color: #08397A;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.car_p {
+    color: #8F8080;
+    font-size: 18px !important;
+}
+
+.myCard_2 {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.card2_img {
+    width: 400px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.carousel_Section .slick-prev {
+    left: 0.1% !important;
+    z-index: 100;
+    filter: invert(100%);
+    transform: scale(1.7);
+}
+
+.carousel_Section .slick-next {
+    right: 0.1% !important;
+    z-index: 1;
+    filter: invert(100%);
+    transform: scale(1.7);
+}
+
+/* Manual Section */
+
+.manual_Section {
+    background-image: url(/public/images/sec3Bg.f3d3d021.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: top;
+    overflow-x: hidden !important;
+}
+
+.count {
+    color: #FF9494 !important;
+    font-size: 45px;
+}
+
+.manualIcon {
+    width: 60px;
+    height: 60px;
+}
+
+.para {
+    color: #FF9494 !important;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+/* Testimonial Section */
+
+.testimonial_section {
+    background-color: #08395D;
+    overflow: hidden;
+}
+
+.testimonial_section h2 {
+    color: #00ACFF;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.testimonial_section .mainP {
+    color: #84AFCC;
+    letter-spacing: 1px;
+}
+
+.qoutes {
+    font-size: 20px;
+    color: #007BFF;
+}
+
+.qoutesL {
+    position: relative;
+    top: 30px;
+    left: 0;
+}
+
+.clientImg {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.designation {
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+.slick-prev {
+    left: 0.7% !important;
+    z-index: 100;
+    filter: invert(100%);
+    transform: scale(1.7);
+}
+
+.slick-next {
+    right: 0.7% !important;
+    z-index: 1;
+    filter: invert(100%);
+    transform: scale(1.7);
+}
+
+.slick-dots {
+    transform: scale(2);
+    z-index: 1000;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.slick-dots li {
+    width: 5px;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0.8;
+    color: #458aee !important;
+}
+
+.cardText {
+    font-size: 14px !important;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #000;
+    overflow: hidden !important;
+}
+
+.footer h3 {
+    color: #A80000;
+    font-weight: 400 !important;
+}
+
+.footer span {
+    font-size: 8px;
+    letter-spacing: 0.4px;
+}
+
+.footerLinks {
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    margin-left: 10px !important;
+}
+
+.linkItem {
+    padding: 0 16px !important;
+}
+
+.socialIcons i {
+    color: #A80000;
+    font-size: 18px;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #3373bb !important;
+}
+
+/* Button */
+.myButton {
+    background-color: #A80000;
+    border-radius: 7px;
+    border: none;
+    padding: 14px 30px !important;
+}

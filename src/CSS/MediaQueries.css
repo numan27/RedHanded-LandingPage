@@ -1,0 +1,475 @@
+/* 1500 */
+
+@media screen and (max-width: 1500px) {
+    .main_Section h1 {
+        font-size: 35px;
+        margin-bottom: 35px !important;
+    }
+
+    .heading {
+        margin-bottom: 0 !important;
+    }
+
+    .main_Section p {
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+        line-height: 30px;
+    }
+}
+
+/* 1024 */
+
+@media screen and (max-width: 1024px) {
+
+    .main_Section {
+        overflow-y: hidden !important;
+    }
+
+    .searchBar {
+        height: 65px !important;
+        padding: 10px 20px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .searchInput {
+        padding-top: 24px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .main_Section button {
+        font-size: 13px !important;
+    }
+
+    .main_Section h1 {
+        font-size: 30px !important;
+        margin-top: 20px !important;
+        margin-bottom: 35px !important;
+    }
+
+    .main_Section p {
+        font-size: 16px !important;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .myCard {
+        width: 28vw !important;
+    }
+
+    .clientImg {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .cardText {
+        font-size: 12px !important;
+    }
+
+}
+
+/* 992 */
+
+@media screen and (max-width: 992px) {
+    .logBtn {
+        margin-bottom: 5px !important;
+    }
+
+    .heading {
+        margin-bottom: 0 !important;
+    }
+    .react-player__preview {
+        height: 75% !important;
+    }
+
+    .advP {
+        font-size: 14px !important;
+        line-height: 15px;
+    }
+
+    .advP_2 {
+        font-size: 14px !important;
+    }
+
+    .manualIcon {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .count {
+        font-size: 25px !important;
+    }
+
+    .manual_title {
+        font-size: 20px !important;
+    }
+
+    .manual_para {
+        font-size: 16px !important;
+    }
+
+    h1 {
+        font-size: 30px !important;
+    }
+
+    .myCard {
+        width: 28vw !important;
+        height: 250px !important;
+    }
+
+    .designation {
+        font-size: 12px !important;
+    }
+
+    .footerBrand {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .footerBrand span {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .socialWrapper {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .socialIcons i {
+        padding: 0 12px !important;
+    }
+
+}
+
+/* 768 */
+
+@media screen and (max-width: 768px) {
+    .heading {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .advCol {
+        margin-top: 0 !important;
+    }
+
+    .heading h2 {
+        text-align: center !important;
+        font-size: 25px;
+    }
+
+    .heading h5 {
+        font-size: 18px !important;
+    }
+
+    .main_Section p {
+        line-height: 22px;
+        font-size: 16px !important;
+    }
+
+    .advP {
+        font-size: 12px !important;
+        margin-bottom: 0 !important;
+    }
+    .react-player__preview {
+        width: 90% !important;
+        height: 90% !important;
+    }
+
+    .manualIcon {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .count {
+        font-size: 25px !important;
+    }
+
+    .manual_title {
+        font-size: 20px !important;
+    }
+
+    .manual_para {
+        font-size: 16px !important;
+    }
+
+    .manual_Section h1 {
+        font-size: 20px !important;
+    }
+
+    .myCard {
+        width: 70vw !important;
+        height: 250px !important;
+    }
+    .footerLinks {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+}
+
+/* 600 */
+
+@media screen and (max-width: 600px) {
+    
+    .main_Section h1 {
+        font-size: 20px !important;
+    }
+    .main_Section button {
+        font-size: 12px !important;
+        padding: 10px 12px !important;
+    }
+    .searchInput{
+        padding-top: 21px !important;
+        padding-bottom: 23px !important;
+    }
+
+    .footerLinks {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .footerLinks li {
+        padding-bottom: 5px !important;
+    }
+
+    .myCard {
+        width: 70vw !important;
+    }
+
+    .cardTitle {
+        font-size: 15px !important;
+    }
+
+    .address {
+        font-size: 18px !important;
+    }
+
+    .sizing {
+        font-size: 14px !important;
+    }
+
+    .card2_img {
+        width: 350px;
+        height: 200px;
+        object-fit: fill;
+    }
+
+    .carousel_Section {
+        height: auto !important;
+    }
+    .carousel_Section h3{
+        font-size: 18px !important;
+    }
+    .advP {
+        font-size: 11px !important;
+    }
+
+    .advP_2 {
+        font-size: 12px !important;
+    }
+    .para{
+        font-size: 13px !important;
+    }
+    .mainP{
+        font-size: 13px !important;
+    }
+    .car_p{
+        font-size: 13px !important;
+    }
+    .heading h5{
+        font-size: 13px !important;
+}
+    h1, h2{
+        font-size: 20px !important;
+    }
+}
+
+/* 425 */
+
+@media screen and (max-width: 425px) {
+    ::placeholder {
+        font-size: 13px !important;
+    }
+    .searchBar {
+        height: 50px !important;
+        padding: 10px 20px !important;
+        margin-bottom: 0px !important;
+    }
+    .searchInput{
+        padding-top: 17px !important;
+        padding-bottom: 17px !important;
+    }
+
+    .main_Section button {
+        font-size: 12px !important;
+        padding: 10px 12px !important;
+    }
+
+    .main_Section h1 {
+        font-size: 16px !important;
+        margin-top: 20px !important;
+        margin-bottom: 35px !important;
+    }
+
+    .main_Section p {
+        font-size: 10px !important;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+        line-height: 20px;
+    }
+
+    .heading h2 {
+        text-align: center !important;
+        font-size: 20px !important;
+    }
+
+    .heading h5 {
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+
+    .advP {
+        font-size: 13px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .react-player__preview {
+        width: 88% !important;
+        height: 80% !important;
+        margin-top: 20px !important;
+    }
+
+    .react-player__shadow {
+        background: #007BFF !important;
+        width: 70px !important;
+        height: 70px !important;
+        display: flex;
+        margin-left: 10px !important;
+    }
+
+    .react-player__play-icon {
+        border-width: 20px 0 20px 30px !important;
+        margin-left: 15px !important;
+    }
+
+    ::placeholder {
+        font-size: 8px !important;
+    }
+
+    .manualIcon {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .count {
+        font-size: 20px !important;
+    }
+
+    .manual_title {
+        font-size: 15px !important;
+    }
+
+    .manual_para {
+        font-size: 12px !important;
+    }
+
+    .manual_Section h1 {
+        font-size: 15px !important;
+    }
+
+    .myCard {
+        width: 60vw !important;
+        height: 250px !important;
+    }
+
+    .address {
+        font-size: 15px !important;
+    }
+
+    .sizing {
+        font-size: 13px !important;
+    }
+
+    .card2_img {
+        width: 300px;
+        height: 180px;
+        object-fit: fill;
+    }
+    .adv-Wrapper{
+        margin-top: 10px !important;
+    }
+    .advCol{
+        margin-top: 0 !important;
+    }
+    .heading{
+        margin-bottom: 0 !important;
+    }
+
+}
+
+/* 375 */
+
+@media screen and (max-width: 375px) {
+    .main_Section button {
+        font-size: 12px !important;
+        padding: 10px 12px !important;
+    }
+
+    .main_Section h1 {
+        font-size: 13px !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .main_Section p {
+        font-size: 10px !important;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+    .searchInput{
+        padding-top: 17px !important;
+        padding-bottom: 18px !important;
+    }
+
+    .react-player__preview {
+
+        width: 85% !important;
+        height: 60% !important;
+        margin-top: 20px !important;
+    }
+
+    .myCard {
+        width: 70vw !important;
+        height: 250px !important;
+    }
+
+    .sizing {
+        font-size: 14px !important;
+    }
+
+    .card2_img {
+        width: 260px;
+        height: 140px;
+        object-fit: fill;
+    }
+    .adv-Wrapper{
+        margin-top: 15px !important;
+    }
+}
+
+/*  320 */
+
+@media screen and (max-width: 330px) {
+    .address {
+        font-size: 14px !important;
+    }
+
+    .sizing {
+        font-size: 12px !important;
+    }
+    .adv-Wrapper{
+        margin-top: 15px !important;
+    }
+}
